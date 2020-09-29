@@ -112,3 +112,34 @@ img {
     padding: 0;
   }
 }
+
+/* bonus */
+@media screen and (min-width: 419px) and (max-width: 1024px) {
+
+  .row{
+    width: 100%;
+  }
+
+  /* regole blocco lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+    float: none;
+  }
+
+  /* regole blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  /* regole blocco perchè */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+  }
+}
